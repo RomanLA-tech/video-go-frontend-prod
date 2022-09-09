@@ -1,0 +1,39 @@
+.container {
+  @apply flex w-full justify-center p-2;
+
+  .form {
+
+    @apply flex flex-wrap items-center justify-around gap-4 mx-2;
+    min-width: 800px;
+    max-width: 1000px;
+
+
+    .fields {
+      @apply w-6/12;
+      min-height: 210px;
+
+      &:first-child {
+        @apply mt-4;
+      }
+
+      :nth-child(2) {
+        @apply pt-2;
+      }
+    }
+
+    .information_block {
+      @apply w-5/12;
+    }
+
+
+    .upload_buttons {
+      @apply inline-flex mt-4 mb-8;
+    }
+
+    .submit {
+      @apply mt-10;
+    }
+  }
+
+}
+

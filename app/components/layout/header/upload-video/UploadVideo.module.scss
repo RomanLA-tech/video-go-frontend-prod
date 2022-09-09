@@ -1,0 +1,45 @@
+.modal {
+  @apply relative z-50;
+
+  .overlay {
+    @apply fixed inset-0 bg-black/30;
+  }
+
+  .wrapper {
+    @apply fixed inset-0 flex items-center justify-center;
+
+    > div {
+      @apply flex min-h-full items-center justify-center;
+
+      .window {
+        @apply mx-auto shadow-block p-4 relative bg-gray-900 rounded-2xl text-white;
+        width: 1000px;
+        height: 610px;
+      }
+    }
+  }
+
+
+  .upload_screen {
+    @apply flex w-full h-full absolute justify-center items-center;
+  }
+}
+
+.form {
+  @apply flex flex-wrap justify-between;
+
+  .left_col {
+    @apply w-7/12 pt-3 pr-2;
+  }
+
+  .right_col {
+    @apply w-5/12;
+  }
+
+  .buttons_section {
+    @apply my-16 flex
+  }
+}
+
+
+

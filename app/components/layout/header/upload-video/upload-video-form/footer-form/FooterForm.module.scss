@@ -1,0 +1,24 @@
+.container {
+  @apply flex justify-center mx-4;
+  width: 100%;
+
+  .status {
+    @apply justify-between  w-full;
+    span {
+      @apply flex text-white text-base items-center text-center;
+
+      svg {
+        @apply text-primary mr-4 text-center scale-150;
+      }
+    }
+
+    .no_item {
+      @apply items-center text-center;
+      svg {
+        @apply text-gray-900;
+
+      }
+    }
+  }
+}
+

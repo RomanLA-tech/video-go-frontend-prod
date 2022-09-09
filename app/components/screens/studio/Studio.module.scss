@@ -1,0 +1,11 @@
+.main_title_container {
+  @apply flex justify-center items-center mt-36;
+  cursor: pointer;
+
+  > span {
+    @apply text-4xl text-white;
+    > b {
+      @apply text-blue-900;
+    }
+  }
+}

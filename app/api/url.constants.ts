@@ -1,0 +1,23 @@
+export const API_URL: string = `${process.env.APP_URL}/api`;
+export const SERVER_API_URL: string =
+	'https://video-go-api-app.herokuapp.com/api';
+export const APP_LINK: string = `${process.env.APP_URL}`;
+export const USER = 'user';
+export const USERS = 'users';
+export const AUTH = 'auth';
+export const LOGIN = 'login';
+export const REGISTER = 'register';
+export const VIDEO = 'video';
+export const MOST_POPULAR = 'most-popular';
+export const BY_ID = 'by-id';
+export const SUBSCRIBE = 'subscribe';
+export const COMMENT = 'comment';
+export const GET_PRIVATE = 'get-private';
+export const UPDATE_VIEWS = 'update-views';
+export const UPDATE_LIKES = 'update-likes';
+export const AVATAR = 'avatar';
+export const EDIT = 'edit';
+export const THUMBNAIL = 'thumbnail';
+export const VIDEO_FILE = 'video-file';
+export const DEFAULT_THUMBNAIL_KEY = 'uploads/thumbnails/default.webp';
+export const DEFAULT_AVATAR_KEY = 'uploads/avatars/default_avatar.webp';

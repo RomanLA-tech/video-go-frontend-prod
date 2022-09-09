@@ -1,0 +1,12 @@
+.channel {
+  @apply mb-10 w-1/3;
+
+  > .content {
+    @apply flex items-center gap-10;
+  }
+
+  > .description {
+    @apply text-gray-500 mt-3;
+  }
+}
+

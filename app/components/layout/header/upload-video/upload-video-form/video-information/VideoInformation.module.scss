@@ -1,0 +1,34 @@
+.info {
+  @apply rounded-lg overflow-hidden pt-3;
+  width: 400px;
+
+  .thumbnail {
+    @apply bg-gray-800 text-gray-500 text-tiny flex items-center justify-center;
+    height: 210px;
+  }
+
+
+  .details {
+    @apply bg-gray-900 pt-3;
+    > div {
+      @apply mb-3 last:mb-0 ml-2;
+      > span {
+        @apply block text-tiny;
+        &:first-child {
+          @apply text-gray-500 mb-1;
+        }
+
+        &:last-child {
+          > a {
+            @apply text-primary opacity-75;
+          }
+        }
+      }
+    }
+
+    .video_name {
+      @apply text-gray-500 mb-1;
+    }
+
+  }
+}
