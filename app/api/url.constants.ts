@@ -1,5 +1,5 @@
 export const API_URL: string = `${process.env.APP_URL}/api`;
-export const SERVER_API_URL: string = 'https://web-production-c950.up.railway.app';
+export const SERVER_API_URL: string = `${process.env.SERVER_API_URL}`;
 export const APP_LINK: string = `${process.env.APP_URL}`;
 export const USER = 'user';
 export const USERS = 'users';
