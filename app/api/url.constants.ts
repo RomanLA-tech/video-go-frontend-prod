@@ -1,6 +1,5 @@
 export const API_URL: string = `${process.env.APP_URL}/api`;
-export const SERVER_API_URL: string =
-	'https://video-go-api-app.herokuapp.com/api';
+export const SERVER_API_URL: string = 'https://web-production-c950.up.railway.app';
 export const APP_LINK: string = `${process.env.APP_URL}`;
 export const USER = 'user';
 export const USERS = 'users';
